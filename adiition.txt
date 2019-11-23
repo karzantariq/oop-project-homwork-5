@@ -1,0 +1,22 @@
+package calculatorr;
+import java.util.*;
+
+
+public class addition extends  calculatorr{
+    
+            
+    Scanner x=new Scanner(System.in);
+    double a=x.nextInt();
+    double b=x.nextInt ();
+    double result=a+b;
+    
+    public void print (){
+        System.out.println("result of two number = "+result);
+        System.out.println("**************************************");
+    
+    
+    }
+    
+   
+  
+}

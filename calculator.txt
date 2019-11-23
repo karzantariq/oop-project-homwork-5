@@ -1,0 +1,27 @@
+package calculatorr;
+import java.util.*;
+
+public class calculatorr{
+    
+    Scanner x=new Scanner(System.in);
+
+
+    public static void main(String[] args) {
+        System.out.println("enter two numer");
+        addition w=new addition();
+        exponent e=new exponent();
+        division a=new division();
+        multiplication d=new multiplication();
+        subtraction f=new subtraction();
+        
+        w.print();
+        e.print();
+        a.print();
+        d.print();
+        f.print();
+        
+        
+       
+    }
+   
+}

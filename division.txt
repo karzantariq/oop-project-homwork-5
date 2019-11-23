@@ -1,0 +1,26 @@
+package calculatorr;
+import java.util.*;
+
+
+public class division extends calculatorr {
+    Scanner x=new Scanner(System.in);
+    double a=x.nextInt();
+    double b=x.nextInt ();
+    double result=a/b;
+    
+    
+    public void print (){
+        System.out.println(""+a/b);
+        System.out.println("**************************************");
+    
+    
+    }
+    
+   
+  
+  
+    
+}
+
+    
+  
